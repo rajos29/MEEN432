@@ -19,7 +19,7 @@ This folder contains my MATLAB code for the Weekly Check-in on 9.7.25
 - rk4_step.m
 -   Runge–Kutta 4 integration step
 
-**How to run: **
+**How to run:**
 1. Open MATLAB.
 2. Change directory to this folder's download location
 3. Run "run_S1.m" and graphs will be output
