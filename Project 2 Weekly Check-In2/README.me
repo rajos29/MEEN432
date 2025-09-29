@@ -1,0 +1,33 @@
+Project 2 – Week 2 Check-in
+
+Progress Completed
+
+Extended the Week 1 track model by adding lateral dynamic components in Simulink.
+
+Built a Driver Model subsystem to estimate steering angle (δf) based on track error.
+
+Implemented a Lateral Dynamics subsystem that accounts for tire slip and tire forces.
+
+Used this subsystem to calculate lateral velocity (vy) and vehicle heading (ψ).
+
+Added a Transformation/Rotation function to convert heading into global X–Y coordinates.
+
+Implemented continuous plotting with an XY Graph to visualize vehicle motion around the track.
+
+Closed the loop by feeding X, Y, and ψ back to the Driver Model subsystem for path correction.
+
+Verified that the vehicle remains within the 15 m track width, correcting heading through curves and aligning properly on straightaways.
+
+Vehicle motion now shows smooth transitions between straight and curved sections with stable behavior.
+
+How to Run
+
+Open all MATLAB and Simulink files provided (innit.m, gentrack.m, animate.m, and Simulink model).
+
+Run innit.m first to initialize all required parameters.
+
+Run gentrack.m to generate track waypoints and prepare the environment.
+
+Keep the Simulink model open, then execute animate.m to simulate and display the vehicle path.
+
+The XY Graph in Simulink will show the lap progress and vehicle dynamics in real time.
