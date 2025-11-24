@@ -1,4 +1,4 @@
-Project 4 – Week 3 README
+Individual – Week 1 README
 
 How to Run: Run p4_init.m, then p4_runsim.m, note simulation complexity may require waiting a few minutes for simulation to complete.
 
